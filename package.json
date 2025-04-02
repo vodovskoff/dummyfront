@@ -1,0 +1,15 @@
+{
+  "name": "dummy-front",
+  "version": "1.0.0",
+  "description": "Пример приложения на TypeScript с использованием Docker",
+  "scripts": {
+    "build": "tsc",
+    "start": "http-server public"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
